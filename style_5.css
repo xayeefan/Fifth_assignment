@@ -1,0 +1,118 @@
+body{
+    background-color: #008080;
+}
+
+@font-face{
+    font-family: Windows;
+    src: url("./font/Windows\ Regular.ttf");
+}
+*{
+    padding: 0;
+    font-family: Windows;
+}
+
+h2{
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Windows,'Times New Roman';
+}
+
+.box{
+    position: relative;
+    left: 15px;
+    top: 5px;
+}
+
+.notepad{
+    position: relative;
+    top: -60px;
+    left: 8%;
+}
+
+.notepad img{
+    width: 1160px;
+    height: 820px;
+}
+
+.image-content p{
+    position: absolute;
+    font-size: 15px;
+    left: 30px;
+    top: 75px;
+    width: 1100px;
+}
+
+.image-content2 p{
+    position: absolute;
+    font-size: 15px;
+    left: 30px;
+    top: 455px;
+    width: 1090px;
+}
+
+.table1 img{
+    position: absolute;
+    width: 404px;
+    height: 172px;
+    left: 590px;
+    top: 283px;
+    box-shadow:3px 3px 12px gray;padding: 1px;
+}
+
+.table2 img{
+    position: absolute;
+    width: 453px;
+    height: 109px;
+    left: 41px;
+    top: 325px;
+    box-shadow:3px 3px 12px gray;padding: 1px;
+}
+
+.table3 img{
+    position: absolute;
+    width: 564px;
+    height: 126px;
+    left: 272px;
+    top: 523px;
+    box-shadow:3px 3px 12px gray;padding: 1px;
+}
+
+.dog img{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    left: 920px;
+    top: 530px
+}
+
+.sidebar{
+    position: absolute;
+    top: 130px;
+    left: 1330px;
+}
+.sidebar div img{
+    width: 48px;
+    height: 48px;
+}
+.sidebar div p{
+    margin-top: 0px;
+    margin-left: -18px;
+    margin-bottom: 20px;
+}
+
+.button{
+    text-decoration: none;
+}
+
+.button:hover{
+    color: whitesmoke;
+}
+
+.box1 img{
+    position: fixed;
+    height: 40px;
+    width: 1450px;
+    bottom: -5px;
+    left: -5px;
+}
